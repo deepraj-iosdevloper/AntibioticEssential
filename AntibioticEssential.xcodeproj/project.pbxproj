@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E674251ED725AE0080E458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674241ED725AE0080E458 /* AppDelegate.swift */; };
+		04E674271ED725AE0080E458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674261ED725AE0080E458 /* ViewController.swift */; };
+		04E6742A1ED725AE0080E458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E674281ED725AE0080E458 /* Main.storyboard */; };
+		04E6742C1ED725AE0080E458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6742B1ED725AE0080E458 /* Assets.xcassets */; };
+		04E6742F1ED725AE0080E458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6742D1ED725AE0080E458 /* LaunchScreen.storyboard */; };
+		04E6743A1ED725AE0080E458 /* AntibioticEssentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674391ED725AE0080E458 /* AntibioticEssentialTests.swift */; };
+		04E674451ED725AE0080E458 /* AntibioticEssentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674441ED725AE0080E458 /* AntibioticEssentialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E674361ED725AE0080E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E674191ED725AD0080E458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E674201ED725AD0080E458;
+			remoteInfo = AntibioticEssential;
+		};
+		04E674411ED725AE0080E458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E674191ED725AD0080E458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E674201ED725AD0080E458;
+			remoteInfo = AntibioticEssential;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E674211ED725AE0080E458 /* AntibioticEssential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntibioticEssential.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E674241ED725AE0080E458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E674261ED725AE0080E458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E674291ED725AE0080E458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E6742B1ED725AE0080E458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E6742E1ED725AE0080E458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E674301ED725AE0080E458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E674351ED725AE0080E458 /* AntibioticEssentialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntibioticEssentialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E674391ED725AE0080E458 /* AntibioticEssentialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntibioticEssentialTests.swift; sourceTree = "<group>"; };
+		04E6743B1ED725AE0080E458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E674401ED725AE0080E458 /* AntibioticEssentialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntibioticEssentialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E674441ED725AE0080E458 /* AntibioticEssentialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntibioticEssentialUITests.swift; sourceTree = "<group>"; };
+		04E674461ED725AE0080E458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E6741E1ED725AD0080E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E674321ED725AE0080E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6743D1ED725AE0080E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E674181ED725AD0080E458 = {
+			isa = PBXGroup;
+			children = (
+				04E674231ED725AE0080E458 /* AntibioticEssential */,
+				04E674381ED725AE0080E458 /* AntibioticEssentialTests */,
+				04E674431ED725AE0080E458 /* AntibioticEssentialUITests */,
+				04E674221ED725AE0080E458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E674221ED725AE0080E458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E674211ED725AE0080E458 /* AntibioticEssential.app */,
+				04E674351ED725AE0080E458 /* AntibioticEssentialTests.xctest */,
+				04E674401ED725AE0080E458 /* AntibioticEssentialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E674231ED725AE0080E458 /* AntibioticEssential */ = {
+			isa = PBXGroup;
+			children = (
+				04E674241ED725AE0080E458 /* AppDelegate.swift */,
+				04E674261ED725AE0080E458 /* ViewController.swift */,
+				04E674281ED725AE0080E458 /* Main.storyboard */,
+				04E6742B1ED725AE0080E458 /* Assets.xcassets */,
+				04E6742D1ED725AE0080E458 /* LaunchScreen.storyboard */,
+				04E674301ED725AE0080E458 /* Info.plist */,
+			);
+			path = AntibioticEssential;
+			sourceTree = "<group>";
+		};
+		04E674381ED725AE0080E458 /* AntibioticEssentialTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E674391ED725AE0080E458 /* AntibioticEssentialTests.swift */,
+				04E6743B1ED725AE0080E458 /* Info.plist */,
+			);
+			path = AntibioticEssentialTests;
+			sourceTree = "<group>";
+		};
+		04E674431ED725AE0080E458 /* AntibioticEssentialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E674441ED725AE0080E458 /* AntibioticEssentialUITests.swift */,
+				04E674461ED725AE0080E458 /* Info.plist */,
+			);
+			path = AntibioticEssentialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E674201ED725AD0080E458 /* AntibioticEssential */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E674491ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssential" */;
+			buildPhases = (
+				04E6741D1ED725AD0080E458 /* Sources */,
+				04E6741E1ED725AD0080E458 /* Frameworks */,
+				04E6741F1ED725AD0080E458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntibioticEssential;
+			productName = AntibioticEssential;
+			productReference = 04E674211ED725AE0080E458 /* AntibioticEssential.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E674341ED725AE0080E458 /* AntibioticEssentialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6744C1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialTests" */;
+			buildPhases = (
+				04E674311ED725AE0080E458 /* Sources */,
+				04E674321ED725AE0080E458 /* Frameworks */,
+				04E674331ED725AE0080E458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E674371ED725AE0080E458 /* PBXTargetDependency */,
+			);
+			name = AntibioticEssentialTests;
+			productName = AntibioticEssentialTests;
+			productReference = 04E674351ED725AE0080E458 /* AntibioticEssentialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E6743F1ED725AE0080E458 /* AntibioticEssentialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E6744F1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialUITests" */;
+			buildPhases = (
+				04E6743C1ED725AE0080E458 /* Sources */,
+				04E6743D1ED725AE0080E458 /* Frameworks */,
+				04E6743E1ED725AE0080E458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E674421ED725AE0080E458 /* PBXTargetDependency */,
+			);
+			name = AntibioticEssentialUITests;
+			productName = AntibioticEssentialUITests;
+			productReference = 04E674401ED725AE0080E458 /* AntibioticEssentialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E674191ED725AD0080E458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04E674201ED725AD0080E458 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					04E674341ED725AE0080E458 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E674201ED725AD0080E458;
+					};
+					04E6743F1ED725AE0080E458 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E674201ED725AD0080E458;
+					};
+				};
+			};
+			buildConfigurationList = 04E6741C1ED725AD0080E458 /* Build configuration list for PBXProject "AntibioticEssential" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E674181ED725AD0080E458;
+			productRefGroup = 04E674221ED725AE0080E458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E674201ED725AD0080E458 /* AntibioticEssential */,
+				04E674341ED725AE0080E458 /* AntibioticEssentialTests */,
+				04E6743F1ED725AE0080E458 /* AntibioticEssentialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E6741F1ED725AD0080E458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6742F1ED725AE0080E458 /* LaunchScreen.storyboard in Resources */,
+				04E6742C1ED725AE0080E458 /* Assets.xcassets in Resources */,
+				04E6742A1ED725AE0080E458 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E674331ED725AE0080E458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6743E1ED725AE0080E458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E6741D1ED725AD0080E458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E674271ED725AE0080E458 /* ViewController.swift in Sources */,
+				04E674251ED725AE0080E458 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E674311ED725AE0080E458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E6743A1ED725AE0080E458 /* AntibioticEssentialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E6743C1ED725AE0080E458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E674451ED725AE0080E458 /* AntibioticEssentialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E674371ED725AE0080E458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E674201ED725AD0080E458 /* AntibioticEssential */;
+			targetProxy = 04E674361ED725AE0080E458 /* PBXContainerItemProxy */;
+		};
+		04E674421ED725AE0080E458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E674201ED725AD0080E458 /* AntibioticEssential */;
+			targetProxy = 04E674411ED725AE0080E458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E674281ED725AE0080E458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E674291ED725AE0080E458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E6742D1ED725AE0080E458 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E6742E1ED725AE0080E458 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E674471ED725AE0080E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E674481ED725AE0080E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E6744A1ED725AE0080E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AntibioticEssential/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssential;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04E6744B1ED725AE0080E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AntibioticEssential/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssential;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04E6744D1ED725AE0080E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AntibioticEssentialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssentialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntibioticEssential.app/AntibioticEssential";
+			};
+			name = Debug;
+		};
+		04E6744E1ED725AE0080E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AntibioticEssentialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssentialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntibioticEssential.app/AntibioticEssential";
+			};
+			name = Release;
+		};
+		04E674501ED725AE0080E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AntibioticEssentialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssentialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AntibioticEssential;
+			};
+			name = Debug;
+		};
+		04E674511ED725AE0080E458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AntibioticEssentialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssentialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AntibioticEssential;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E6741C1ED725AD0080E458 /* Build configuration list for PBXProject "AntibioticEssential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E674471ED725AE0080E458 /* Debug */,
+				04E674481ED725AE0080E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E674491ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssential" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6744A1ED725AE0080E458 /* Debug */,
+				04E6744B1ED725AE0080E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E6744C1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E6744D1ED725AE0080E458 /* Debug */,
+				04E6744E1ED725AE0080E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E6744F1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E674501ED725AE0080E458 /* Debug */,
+				04E674511ED725AE0080E458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E674191ED725AD0080E458 /* Project object */;
+}
