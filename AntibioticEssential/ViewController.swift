@@ -12,21 +12,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var viewetaVersion: UIView!
     
-    @IBOutlet weak var btnRedeem: UIButton!
-    @IBOutlet weak var btnSingIn: UIButton!
-    @IBOutlet weak var btnPrintBook: UIButton!
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
      
         self.viewetaVersion.layer.cornerRadius = self.viewetaVersion.frame.height / 2
-        
-        self.btnRedeem.layer.cornerRadius = 5
-        self.btnSingIn.layer.cornerRadius = 5
-        self.btnPrintBook.layer.cornerRadius = 5
-        
     }
 
     @IBAction func redeemCodeBtnAction(_ sender: Any) {

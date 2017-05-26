@@ -10,15 +10,10 @@ import UIKit
 
 class RedeemCodeViewController: UIViewController , UITextFieldDelegate{
 
-    @IBOutlet weak var btnSubmit: UIButton!
-    @IBOutlet weak var viewRedeem: UIView!
     @IBOutlet weak var txtRedeemCode: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.btnSubmit.layer.cornerRadius = 5
-        self.viewRedeem.layer.cornerRadius = 5
     }
     
     @IBAction func backBtnAction(_ sender: Any) {

@@ -28,16 +28,16 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEW-bX-jWd">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="614"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="611.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JaypeeLogoN" translatesAutoresizingMaskIntoConstraints="NO" id="XJo-gM-5nT">
-                                                <rect key="frame" x="131" y="36" width="113" height="169"/>
+                                                <rect key="frame" x="131" y="35.5" width="113" height="169"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XJo-gM-5nT" secondAttribute="height" multiplier="1:1.5" id="H7l-Fk-Urd"/>
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0r-wH-vd8">
-                                                <rect key="frame" x="252" y="10" width="113" height="36"/>
+                                                <rect key="frame" x="252" y="10" width="113" height="35.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BETA Version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffF-Xa-Is3">
                                                         <rect key="frame" x="8" y="9" width="97" height="19.5"/>
@@ -55,55 +55,70 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Health Sciences Publisher" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVr-ZL-q1o">
-                                                <rect key="frame" x="10" y="220" width="355" height="26"/>
+                                                <rect key="frame" x="10" y="219.5" width="355" height="26"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="antibioticessentials" translatesAutoresizingMaskIntoConstraints="NO" id="dpK-Nf-twG">
-                                                <rect key="frame" x="38" y="261" width="300" height="100"/>
+                                                <rect key="frame" x="38" y="260.5" width="300" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="dpK-Nf-twG" secondAttribute="height" multiplier="3:1" id="Lrz-U2-LEo"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Companion App to 15th Edithion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daI-N6-hZh">
-                                                <rect key="frame" x="10" y="376" width="355" height="22"/>
+                                                <rect key="frame" x="10" y="375.5" width="355" height="22"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUE-tZ-vTU">
-                                                <rect key="frame" x="57" y="413" width="262" height="40"/>
+                                                <rect key="frame" x="57" y="412.5" width="262" height="40"/>
                                                 <color key="backgroundColor" red="0.5609174370765686" green="0.40023994445800781" blue="0.59298413991928101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Redeem Code">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="redeemCodeBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pE-X8-Ce3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYM-g0-iTG">
-                                                <rect key="frame" x="57" y="468" width="262" height="41"/>
+                                                <rect key="frame" x="57" y="467.5" width="262" height="40"/>
                                                 <color key="backgroundColor" red="0.56091743709999997" green="0.4002399445" blue="0.59298413989999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Sign in">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6OG-Cg-hm6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="li7-lR-7Vb">
-                                                <rect key="frame" x="57" y="524" width="263" height="40"/>
+                                                <rect key="frame" x="56.5" y="522.5" width="262" height="40"/>
                                                 <color key="backgroundColor" red="0.56091743709999997" green="0.4002399445" blue="0.59298413989999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="Buy Print Book">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© Copyright 2017 , Jaypee Brothers Medical Publishers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wt4-na-MSi">
-                                                <rect key="frame" x="10" y="580" width="355" height="14"/>
+                                                <rect key="frame" x="10" y="577.5" width="355" height="14"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -164,9 +179,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="EJx-RP-x7Z"/>
                     <connections>
-                        <outlet property="btnPrintBook" destination="li7-lR-7Vb" id="A9X-pD-Djt"/>
-                        <outlet property="btnRedeem" destination="YUE-tZ-vTU" id="9dQ-QD-hbL"/>
-                        <outlet property="btnSingIn" destination="lYM-g0-iTG" id="aht-fw-Uxi"/>
                         <outlet property="viewetaVersion" destination="j0r-wH-vd8" id="ssb-XD-tHX"/>
                     </connections>
                 </viewController>
@@ -244,6 +256,11 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="submitButtonAction:" destination="muB-kh-QmP" eventType="touchUpInside" id="Eon-ly-2hJ"/>
                                 </connections>
@@ -289,9 +306,7 @@ Order the Print Copy from Home Screen</string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btnSubmit" destination="ITk-Qr-6wQ" id="tWV-Qp-evz"/>
                         <outlet property="txtRedeemCode" destination="zot-vf-bug" id="mbZ-bd-KB7"/>
-                        <outlet property="viewRedeem" destination="ER6-RY-jjP" id="65U-nG-guK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Znp-pb-16y" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -375,6 +390,11 @@ Order the Print Copy from Home Screen</string>
                                                     <constraint firstItem="Hb9-Cy-S5Q" firstAttribute="centerX" secondItem="2Xk-TV-8jv" secondAttribute="centerX" id="81u-ol-LvL"/>
                                                     <constraint firstItem="Hb9-Cy-S5Q" firstAttribute="centerY" secondItem="2Xk-TV-8jv" secondAttribute="centerY" id="lyi-Lp-gD9"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dd1-0c-dXi">
                                                 <rect key="frame" x="20" y="85" width="335" height="66.5"/>
@@ -477,6 +497,11 @@ Order the Print Copy from Home Screen</string>
                                                 <state key="normal" title="Login">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="loginButtonAction:" destination="Ea7-eL-fbj" eventType="touchUpInside" id="Jvt-2s-mu5"/>
                                                 </connections>
@@ -532,10 +557,8 @@ Order the Print Copy from Home Screen</string>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="btnlogin" destination="igO-Sx-mRq" id="a5n-u2-MDP"/>
                         <outlet property="txtPassword" destination="4iP-sA-U4s" id="qrq-4n-AIw"/>
                         <outlet property="txtUserName" destination="bgP-Jk-h40" id="Imt-GI-onC"/>
-                        <outlet property="viewUserLogin" destination="2Xk-TV-8jv" id="yMN-5u-wJS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDU-ob-cjx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -638,6 +661,11 @@ Order the Print Copy from Home Screen</string>
                                                     <constraint firstItem="q9m-DK-tEz" firstAttribute="centerX" secondItem="QWR-a0-R0v" secondAttribute="centerX" id="aqL-o8-yIv"/>
                                                     <constraint firstItem="q9m-DK-tEz" firstAttribute="centerY" secondItem="QWR-a0-R0v" secondAttribute="centerY" id="vf7-Jy-xvZ"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tee-Fe-Nfs">
                                                 <rect key="frame" x="38" y="80" width="300" height="67"/>
@@ -810,8 +838,12 @@ Order the Print Copy from Home Screen</string>
                                                 <state key="normal" title="Register">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="loginButtonAction:" destination="Ea7-eL-fbj" eventType="touchUpInside" id="NCv-sg-XZ9"/>
                                                     <action selector="registerButtonActio:" destination="2Pc-tW-c4U" eventType="touchUpInside" id="eYF-Ny-zby"/>
                                                 </connections>
                                             </button>

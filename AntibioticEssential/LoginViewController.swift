@@ -9,16 +9,12 @@
 import UIKit
 
 class LoginViewController: UIViewController , UITextFieldDelegate {
-    @IBOutlet weak var viewUserLogin: UIView!
-    @IBOutlet weak var btnlogin: UIButton!
+
     @IBOutlet weak var txtUserName: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.viewUserLogin.layer.cornerRadius = 5
-        self.btnlogin.layer.cornerRadius = 5
 
     }
     

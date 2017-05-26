@@ -14,9 +14,9 @@ class RegistrationViewController: UIViewController , UITextFieldDelegate{
     @IBOutlet weak var txtEmailId: UITextField!
     @IBOutlet weak var txtPhoneNumber: UITextField!
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     @IBAction func backButtonAction(_ sender: Any) {
