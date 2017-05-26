@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049DE2DE1ED73FDB00D553DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049DE2DD1ED73FDB00D553DE /* LoginViewController.swift */; };
+		04BDC0AA1ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC0A71ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.m */; };
+		04BDC0AB1ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC0A91ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		04BDC0AE1ED7C68D0031C90C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDC0AD1ED7C68D0031C90C /* RegistrationViewController.swift */; };
 		04E674251ED725AE0080E458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674241ED725AE0080E458 /* AppDelegate.swift */; };
 		04E674271ED725AE0080E458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674261ED725AE0080E458 /* ViewController.swift */; };
 		04E6742A1ED725AE0080E458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E674281ED725AE0080E458 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		04E6742F1ED725AE0080E458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6742D1ED725AE0080E458 /* LaunchScreen.storyboard */; };
 		04E6743A1ED725AE0080E458 /* AntibioticEssentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674391ED725AE0080E458 /* AntibioticEssentialTests.swift */; };
 		04E674451ED725AE0080E458 /* AntibioticEssentialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674441ED725AE0080E458 /* AntibioticEssentialUITests.swift */; };
+		04E674531ED731FE0080E458 /* RedeemCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E674521ED731FE0080E458 /* RedeemCodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049DE2DD1ED73FDB00D553DE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04BDC0A61ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		04BDC0A71ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		04BDC0A81ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		04BDC0A91ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		04BDC0AD1ED7C68D0031C90C /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		04E674211ED725AE0080E458 /* AntibioticEssential.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntibioticEssential.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E674241ED725AE0080E458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E674261ED725AE0080E458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		04E674401ED725AE0080E458 /* AntibioticEssentialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntibioticEssentialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E674441ED725AE0080E458 /* AntibioticEssentialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntibioticEssentialUITests.swift; sourceTree = "<group>"; };
 		04E674461ED725AE0080E458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E674521ED731FE0080E458 /* RedeemCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemCodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BDC0AF1ED7CA3B0031C90C /* KeyboardAoidScrollview */ = {
+			isa = PBXGroup;
+			children = (
+				04BDC0A61ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.h */,
+				04BDC0A71ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.m */,
+				04BDC0A81ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				04BDC0A91ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = KeyboardAoidScrollview;
+			sourceTree = "<group>";
+		};
 		04E674181ED725AD0080E458 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +120,12 @@
 		04E674231ED725AE0080E458 /* AntibioticEssential */ = {
 			isa = PBXGroup;
 			children = (
+				04BDC0AF1ED7CA3B0031C90C /* KeyboardAoidScrollview */,
 				04E674241ED725AE0080E458 /* AppDelegate.swift */,
 				04E674261ED725AE0080E458 /* ViewController.swift */,
+				04E674521ED731FE0080E458 /* RedeemCodeViewController.swift */,
+				049DE2DD1ED73FDB00D553DE /* LoginViewController.swift */,
+				04BDC0AD1ED7C68D0031C90C /* RegistrationViewController.swift */,
 				04E674281ED725AE0080E458 /* Main.storyboard */,
 				04E6742B1ED725AE0080E458 /* Assets.xcassets */,
 				04E6742D1ED725AE0080E458 /* LaunchScreen.storyboard */,
@@ -193,6 +220,7 @@
 				TargetAttributes = {
 					04E674201ED725AD0080E458 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					04E674341ED725AE0080E458 = {
@@ -259,7 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049DE2DE1ED73FDB00D553DE /* LoginViewController.swift in Sources */,
+				04BDC0AB1ED7C3BF0031C90C /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				04BDC0AA1ED7C3BF0031C90C /* TPKeyboardAvoidingScrollView.m in Sources */,
 				04E674271ED725AE0080E458 /* ViewController.swift in Sources */,
+				04BDC0AE1ED7C68D0031C90C /* RegistrationViewController.swift in Sources */,
+				04E674531ED731FE0080E458 /* RedeemCodeViewController.swift in Sources */,
 				04E674251ED725AE0080E458 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +445,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AntibioticEssential",
+				);
 				INFOPLIST_FILE = AntibioticEssential/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssential;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntibioticEssential/AntibioticEssential-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +464,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AntibioticEssential",
+				);
 				INFOPLIST_FILE = AntibioticEssential/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.AntibioticEssential;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntibioticEssential/AntibioticEssential-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +551,7 @@
 				04E6744B1ED725AE0080E458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E6744C1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +560,7 @@
 				04E6744E1ED725AE0080E458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E6744F1ED725AE0080E458 /* Build configuration list for PBXNativeTarget "AntibioticEssentialUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +569,7 @@
 				04E674511ED725AE0080E458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
